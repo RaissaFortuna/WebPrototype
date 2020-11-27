@@ -143,6 +143,9 @@ ul li {
 .topnav {
   overflow: hidden;
   background-color:lightgrey;
+  font-size: 15px;
+  font-family: system-ui, sans-serif;
+  margin-top:30px;
 }
 
 .topnav a {

@@ -8,15 +8,46 @@
 	<meta name="viewport" content="width=device-width">
 	<title>repl.it</title>
 	<link href="style.css" rel="stylesheet" type="text/css" />
+	<style>
+		@media screen and (max-width: 400px) {
+			.parent {
+				flex-wrap: wrap;
+			}
+		}
+
+		.parent {
+			display: flex;
+			background: white;
+			padding: 0px 0px;
+			justify-content: center;
+		}
+
+		.left {
+			height: 300px;
+			width: 400px;
+			background: white;
+		}
+
+		.right {
+			height: 300px;
+			width: 400px;
+			background: white;
+		}
+
+		.container {
+			max-width: 968px;
+			margin: 0 auto;
+		}
+	</style>
 </head>
 
 <body>
 
 	<header>
 		<div class="topnav">
-				<a href="index.html">
-					<figure>
-						<img src="redkite_logo.png" class="imageRedKiteLogo" alt="redKite Logo"/>   
+			<a href="index.html">
+				<figure>
+					<img src="redkite_logo.png" class="imageRedKiteLogo" alt="redKite Logo"/>   
       </figure></a>
 				<a href="Events.html">Events Page</a>
 				<a href="#contact">Our Story</a>
@@ -49,34 +80,47 @@
 
 
 
-<form action="/action_page.php">
-  <label for="fname">First Name:</label><br>
-  <input type="text" id="fname" name="fname" required><br>
-  <label for="lname">Last Name:</label><br>
-  <input type="text" id="lname" name="lname" required><br>
-  <label for="fname">Email Address:</label><br>
-  <input type="text" id="fname" name="fname" required><br>
-  <label for="lname">Date of Birth:</label><br>
-  <input type="text" id="lname" name="lname" required><br>
-  <br>
 
 
-<h4> CREDIT CARD DETAILS </h4>
-
-<form action="/action_page.php">
-  <label for="fname">Card Number:</label><br>
-  <input type="text" id="fname" name="fname" required><br>
-  <label for="lname">Name on Card:</label><br>
-  <input type="text" id="lname" name="lname" required><br>
-  <label for="fname">Expiry Date:</label><br>
-  <input type="text" id="fname" name="fname" required><br>
-  <label for="lname">CVV:</label><br>
-  <input type="text" id="lname" name="lname" required><br>
-  <br>
+<body>
+    <script src="script.js"></script>
+    <div class="container">
+      <div class="parent">
+        <div class="left">
+          <h4> PERSONAL DETAILS </h4>
+          <form action="/action_page.php">
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="fname" required><br>
+        <label for="lname">Last Name:</label><br>
+        <input type="text" id="lname" name="lname" required><br>
+        <label for="fname">Email Address:</label><br>
+        <input type="text" id="fname" name="fname" required><br>
+        <label for="lname">Date of Birth:</label><br>
+        <input type="text" id="lname" name="lname" required><br>
+        <br>
 </form>
+        </div>
+        <div class="right">
+          <h4> CREDIT CARD DETAILS </h4>
+        <form action="/action_page.php">
+          <label for="fname">Card Number:</label><br>
+          <input type="text" id="fname" name="fname" required><br>
+          <label for="lname">Name on Card:</label><br>
+          <input type="text" id="lname" name="lname" required><br>
+          <label for="fname">Expiry Date:</label><br>
+          <input type="text" id="fname" name="fname" required><br>
+          <label for="lname">CVV:</label><br>
+          <input type="text" id="lname" name="lname" required><br>
+          <br>
+        <a href="Tickets.html"> <button class="button2">SAVE DETAILS</button></a>
+        </form>
+        </div>
+        <div>
+    </div>
+  </body>
 
 
-<a href="Tickets.html"> <button class="button2">SAVE DETAILS</button></a>
+
 
 	</header>
 
