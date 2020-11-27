@@ -9,6 +9,13 @@ figure {
 
 }
 
+.image11 {
+	display: block;
+	width: 130%;
+  margin: auto ;
+
+}
+
 .image2 {
 	display: block;
 	width: 150%;
@@ -91,9 +98,6 @@ figure figcaption {
 h1 {
   margin: 0;
 }
-button {
-  float: right;
-}
 
 
 
@@ -126,6 +130,26 @@ a:hover {
   color:#F63F3C;
 }
 
+button {
+  float: right;
+}
+
+
+.button3 {
+  border-radius: 10px;
+  background-color: #011318; 
+  border: none;
+  color:#A49E8D;
+  padding: 15px 32px;
+  font-size: 8px;
+  margin: 4px 2px;
+  cursor: pointer;
+  }
+
+  .button3 a:hover{
+    background-color:#F63F3C;
+    color:#F63F3C;
+  }
 
 /* for the insert */
 body {
@@ -210,7 +234,11 @@ ul li {
   color: white;
 }*/
 
-
+.imgcontainer1 {
+  float: left;
+  text-align: left;
+  margin: 10px 10px -10px 0;
+}
 
 
 
@@ -230,7 +258,7 @@ ul li {
 .imgcontainer {
   float: right;
   text-align: right;
-  margin: -50px 10px -10px 0;
+  margin: 10px 10px -10px 0;
 }
 
 img.login {

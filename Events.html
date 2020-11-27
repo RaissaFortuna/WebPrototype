@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -5,44 +6,104 @@
 	<meta name="viewport" content="width=device-width">
 	<title>repl.it</title>
 	<link href="style.css" rel="stylesheet" type="text/css" />
-  <style>
-      @media screen and (max-width: 400px) {
-        .parent {
-          flex-wrap: wrap;
-        }
+	<style>
+		@media screen and (max-width: 400px) {
+			.parent {
+				flex-wrap: wrap;
+			}
+		}
+    
+    @media screen and (max-width: 400px) {
+			.parent1 {
+				flex-wrap: wrap;
+			}
+		}
+        .parent3 {
+        display: flex;
+        background: white;
+        padding: 0 0;
+        justify-content: center;
       }
-    </style>
+      .left3 {
+        height: 300px;
+        width: 100%;
+        background: green;
+      }
+      .CenterLeft{
+        height: 300px;
+        width: 100%;
+        background: white;
+      }
+      .CenterRight {
+        height: 300px;
+        width: 100%;
+        background: yellow;
+      }
 
+      .right3 {
+        height: 300px;
+        width: 100%;
+        background: blue;
+      }
+
+		.parent {
+			display: flex;
+			background: white;
+			padding: 0px 0px;
+			justify-content: center;
+		}
+
+		.container {
+			max-width: 968px;
+			margin: 0 auto;
+		}
+
+    .left2 {
+      text-align: center;
+			height: 50px;
+			width: 100%;
+			background: #ADD2FF;
+      color: black;
+		}
+    .right2 {
+      text-align: center;
+			height: 50px;
+			width: 100%;
+			background: #F63F3C;
+      color: white;
+		}
+	</style>
 </head>
 
 <body>
 
 	<header>
 		<div class="topnav">
-				<a href="index.html">
-					<figure>
-						<img src="redkite_logo.png" class="imageRedKiteLogo" alt="redKite Logo"/>   
+			<a href="index.html">
+				<figure>
+					<img src="redkite_logo.png" class="imageRedKiteLogo" alt="redKite Logo"/>   
       </figure></a>
-				<a href="Events.html">Events Page</a>
+				<a href="Events.html" >Events Page</a></center>
 				<a href="#contact">Our Story</a>
 				<a href="#about">How We Help</a>
-        <a href="#about">**LogoProfile</a>
+        <a href="#about">  
+          <div class="imgcontainer">
+    <img src="login.png" alt="login" class="login"><figcaption>Login</figcaption>
+  </div>
+  </a>
 			</div>
 
-
-<div style="width: 100%;">
-  <div style="width: 50%;">
-        <div class="topnav1">
-				<a href="#contact">REQUEST HELP</a>
-        </div>
-        </div>
-  <div style="width: 50%; float:right;">
-        <div class="topnav2">
-				<a href="#about">DONATE</a>
-        </div>
-
+  <script src="script.js"></script>
+  <div class= "topnav1"
+      <div class="container">
+        <div class="parent">
+          <div class="left2"><a href="#notfunctional">REQUEST HELP</a></div>
+          <div class="right2"><a href="#notfunctional">DONATE</a></div>
+        <div>
+      </div>
   </div>
-</div>
+  </div>
+
 
 
 
@@ -51,6 +112,20 @@
 <h3> GALA BALL EVENTS(Raffle Ticket Available) </h3>
 
 </div>
+
+
+
+
+
+    <script src="script.js"></script>
+    
+      <div class="parent3">
+        <div class="left3"></div>
+        <div class="CenterLeft">ABOUT </div>
+         <div class="CenterRight"> FAVORITES</div>
+        <div class="right3">PARTICIPATE</div>
+      <div>
+    </div>
 
 
 
@@ -75,39 +150,37 @@
 
 		</div>
 
-<div style="width: 100%;">
-	<div style="width: 25%; height: 100px; float: left; background: white; margin-top:-70px; margin-bottom:120px;" >
+<div style="width: 80%;">
+	<div style="width: 25%; height: 100px; float: left; background: white; margin-top:-70px; margin-bottom:20%;" >
 				 <figure>
-			<img src="kids1.png" class="image3" alt="Main Picture"/>   
+			<img src="kids1.png" class="image3" alt="Main Picture"/> <figcaption>TEST</figcaption>  
       </figure>
 			</div>
 
-			<div style="width: 30%; height: 100px; float: left;  font-size: 8px; margin-top:-50px; margin-bottom:120px;">
+			<div style="width: 30%; height: 100px; float: left;  font-size: 12px; margin-top:-50px; margin-bottom:20%;;">
         This is event will be helping children in Australia and supporting their families where their children are fighting cancer. To raise awareness to help and support the families.
 			</div>
 
-			<div style="width: 20%; height: 100px; float: left; background: white;margin-top:-50px; margin-left:5px; margin-bottom:120px;">
+			<div style="width: 20%; height: 100px; float: left; background: white;margin-top:-50px; margin-left:5px; margin-bottom:20%;">
 								 <figure>
 			<img src="heart.png" class="image3" alt="like button"/>   
       </figure>
 			</div>
 
-      <div style="width: 25%; height: 100px; float: left; background: white; margin-top:-50px; margin-left:-5px;margin-bottom:120px; ">
+      <div style="width: 25%; height: 100px; float: left; background: white; margin-top:-50px; margin-left:-5px;margin-bottom:20%;; ">
          <a href="purchase.html"> <button class="button2">PARTICIPATE</button></a>
 </div>
 
 
 
 <div style="width: 100%;">
-	<div style="width: 25%; height: 100px; float: left; background: white; margin-top:50px margin-bottom: 150px;">
+	<div style="width: 55%; height: 100px; float: left; background: white; margin-top:50px margin-bottom: 150px;">
 			<figure>
-			<img src="kids1.png" class="image3" alt="Main Picture"/>   
+			<img src="kids1.png" float = "center" class="image3" alt="Main Picture"/><figcaption>This is event will be helping children in Australia and supporting their families where their children are fighting cancer. To raise awareness to help and support the families.</figcaption>    
       </figure>
 			</div>
 
-			<div style="width: 30%; height: 100px; float: left;  font-size: 8px; margin-top:70px; margin-bottom: 150px;">
-        This is event will be helping children in Australia and supporting their families where their children are fighting cancer. To raise awareness to help and support the families.
-			</div>
+	
 
 			<div style="width: 20%; height: 100px; float: left; background: white;margin-top:70px; margin-left:5px; margin-bottom: 150px;">
 								 <figure>
@@ -118,6 +191,8 @@
       <div style="width: 25%; height: 100px; float: left; background: white; margin-top:70px; margin-left:-5px; margin-bottom: 150px; ">
         <a href="purchase.html"> <button class="button2">PARTICIPATE</button></a>
 			</div>
+
+
 
 
 <hr>
