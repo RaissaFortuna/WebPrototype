@@ -224,3 +224,16 @@ ul li {
    color: #A49E8D;
    text-align: center;
 }
+
+
+/* for the profile login*/
+.imgcontainer {
+  float: right;
+  text-align: right;
+  margin: -50px 10px -10px 0;
+}
+
+img.login {
+  width: 10%;
+  border-radius: 50%;
+}
