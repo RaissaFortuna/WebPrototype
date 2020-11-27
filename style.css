@@ -1,0 +1,217 @@
+figure {
+	padding: 1em 0;
+}
+
+.image1 {
+	display: block;
+	width: 100%;
+	max-width: min-content;
+	margin: 0 auto ;
+  border-radius: 8px;
+}
+
+.image2 {
+	display: block;
+	width: 150%;
+  height: 100%;
+	max-width: min-content;
+	margin-top: -10px; 
+  border-radius: 50%;
+}
+
+.image3 {
+	display: block;
+	width: 350%;
+	max-width: min-content;
+	margin-left: -40px ;
+  margin-top: -20px;
+  border-radius: 2px;
+}
+
+.imageHalf {
+	display: block;
+	width: 350%;
+	max-width: 50%;
+	margin-left: -40px ;
+  margin-top: -20px;
+  border-radius: 2px;
+}
+
+.imageRedKiteLogo {
+	display: block;
+	width: 200%;
+	/*max-width: 200%;*/
+	margin-left: -40px ;
+  margin-top: -20px;
+  margin-right: -220px;
+  margin-bottom: -10px;
+  border-radius: -20px;
+}
+
+.imageProfile {
+	display: block;
+	width: 150px;
+  height: 150px;
+	margin-top: 50px; 
+  border-radius: 50%;
+
+}
+
+figure iframe {
+	display: block;
+	margin: 0 auto;
+}
+
+figure figcaption {
+	text-align: center;
+}
+
+
+#gala {
+  width: max-content;
+}
+
+#leftpurchase {
+  width: max-content/2;
+}
+
+#rightpurchase {
+  width: max-content;
+  margin-left:50%;
+  margin-top: -45%;
+}
+
+
+h1 {
+  margin: 0;
+}
+button {
+  float: right;
+}
+
+
+
+/*this is for the button */
+.previous {
+  color: lightblue;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+
+.button2 {
+  background-color: black; 
+  border: none;
+  color:white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 8px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.buttonEvents {
+  text-decoration: none;
+}
+
+a:hover {
+  color:lightpink;
+}
+
+
+/* for the insert */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+/*input element selector?*/
+ul li {
+  list-style: none;
+}
+
+
+/* for navigation bar at the top (header) */
+.topnav {
+  overflow: hidden;
+  background-color:lightgrey;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px 10px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+.topnav1 {
+  overflow: hidden;
+  background-color:lightblue;
+}
+
+.topnav1 a {
+  max-width: 50%;
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 15px 10px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.topnav1 a:hover {
+  background-color: #ddd;
+  color: white;
+}
+
+
+.topnav2 {
+  margin-top: -47px;
+  overflow: hidden;
+  background-color:red;
+}
+
+.topnav2 a {
+  float: right;
+  color: black;
+  text-align: center;
+  padding: 15px 10px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.topnav2 a:hover {
+  background-color: #ddd;
+  color: white;
+}
+
+
+
+
+
+/* This is for the footer */
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: lightgrey;
+   color: white;
+   text-align: center;
+}
