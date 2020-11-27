@@ -5,9 +5,8 @@ figure {
 .image1 {
 	display: block;
 	width: 100%;
-	max-width: min-content;
-	margin: 0 auto ;
-  border-radius: 8px;
+  margin: auto ;
+
 }
 
 .image2 {
@@ -46,6 +45,13 @@ figure {
   margin-right: -220px;
   margin-bottom: -10px;
   border-radius: -20px;
+}
+
+.imageLogin {
+  /*float:right;*/
+  padding: -100px;
+  justify-content: center;
+  width:10%;
 }
 
 .imageProfile {
@@ -93,16 +99,16 @@ button {
 
 /*this is for the button */
 .previous {
-  color: lightblue;
+  color: #ADD2FF;
   font-size: 30px;
   text-decoration: none;
 }
 
 
 .button2 {
-  background-color: black; 
+  background-color: #011318; 
   border: none;
-  color:white;
+  color:#A49E8D;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -117,7 +123,7 @@ button {
 }
 
 a:hover {
-  color:lightpink;
+  color:#F63F3C;
 }
 
 
@@ -142,15 +148,14 @@ ul li {
 /* for navigation bar at the top (header) */
 .topnav {
   overflow: hidden;
-  background-color:lightgrey;
+  background-color:#FAFAFA;
   font-size: 15px;
   font-family: system-ui, sans-serif;
-  margin-top:30px;
 }
 
 .topnav a {
   float: left;
-  color: #f2f2f2;
+  color: #A49E8D;
   text-align: center;
   padding: 15px 10px;
   text-decoration: none;
@@ -158,20 +163,21 @@ ul li {
 }
 
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+  background-color:#FAFAFA;
+  color: #011318;
 }
 
 
 .topnav1 {
   overflow: hidden;
-  background-color:lightblue;
+  background-color:#ADD2FF;
+  font-size: 15px;
+  font-family: system-ui, sans-serif;
 }
 
 .topnav1 a {
-  max-width: 50%;
-  float: left;
-  color: black;
+  float: center;
+  color: #FAFAFA;
   text-align: center;
   padding: 15px 10px;
   text-decoration: none;
@@ -179,12 +185,12 @@ ul li {
 }
 
 .topnav1 a:hover {
-  background-color: #ddd;
-  color: white;
+  background-color: #ADD2FF;
+  color: #011318;
 }
 
 
-.topnav2 {
+/*.topnav2 {
   margin-top: -47px;
   overflow: hidden;
   background-color:red;
@@ -202,7 +208,7 @@ ul li {
 .topnav2 a:hover {
   background-color: #ddd;
   color: white;
-}
+}*/
 
 
 
@@ -214,7 +220,7 @@ ul li {
    left: 0;
    bottom: 0;
    width: 100%;
-   background-color: lightgrey;
-   color: white;
+   background-color: #FAFAFA;
+   color: #A49E8D;
    text-align: center;
 }

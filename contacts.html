@@ -14,11 +14,23 @@
 				flex-wrap: wrap;
 			}
 		}
+    
+    @media screen and (max-width: 400px) {
+			.parent1 {
+				flex-wrap: wrap;
+			}
+		}
 
 		.parent {
 			display: flex;
 			background: white;
 			padding: 0px 0px;
+			justify-content: center;
+		}
+    .parent1 {
+			display: flex;
+			background: white;
+			padding-left: 50px;
 			justify-content: center;
 		}
 
@@ -38,6 +50,21 @@
 			max-width: 968px;
 			margin: 0 auto;
 		}
+
+    .left2 {
+      text-align: center;
+			height: 50px;
+			width: 100%;
+			background: #ADD2FF;
+      color: black;
+		}
+    .right2 {
+      text-align: center;
+			height: 50px;
+			width: 100%;
+			background: #F63F3C;
+      color: white;
+		}
 	</style>
 </head>
 
@@ -49,43 +76,34 @@
 				<figure>
 					<img src="redkite_logo.png" class="imageRedKiteLogo" alt="redKite Logo"/>   
       </figure></a>
-				<a href="Events.html">Events Page</a>
+				<a href="Events.html" >Events Page</a></center>
 				<a href="#contact">Our Story</a>
 				<a href="#about">How We Help</a>
         <a href="#about">**LogoProfile</a>
 			</div>
 
-
-<div style="width: 100%;">
-  <div style="width: 50%;">
-        <div class="topnav1">
-				<a href="#contact">REQUEST HELP</a>
-        </div>
-        </div>
-  <div style="width: 50%; float:right;">
-        <div class="topnav2">
-				<a href="#about">DONATE</a>
-        </div>
-
+  <script src="script.js"></script>
+  <div class= "topnav1"
+      <div class="container">
+        <div class="parent">
+          <div class="left2"><a href="#notfunctional">REQUEST HELP</a></div>
+          <div class="right2"><a href="#notfunctional">DONATE</a></div>
+        <div>
+      </div>
   </div>
-</div>
-
-
-
-
-		<figure>
+  </div>
+    
+   <body 
+    <figure>
 			<center> <img src="PP.png" class="imageProfile" alt="Main Picture"/> </center>   
-      </figure>
+      </figure> 
+   </body>
 
+	<body>
 
-
-
-
-
-<body>
     <script src="script.js"></script>
     <div class="container">
-      <div class="parent">
+      <div class="parent1">
         <div class="left">
           <h4> PERSONAL DETAILS </h4>
           <form action="/action_page.php">
